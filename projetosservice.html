@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Tec Soluções - Gerenciamento de Projetos</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .main-content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #3498db;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db; /* Cor azul */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 15px;
+        }
+
+        .button:hover {
+            background-color: #2980b9; /* Tom mais escuro do azul ao passar o mouse */
+        }
+
+        .floating-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .floating-button:hover {
+            background-color: #2980b9; /* Tom mais escuro do azul ao passar o mouse */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Calendário Mensal */
+        #calendario {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .dia {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./logoo.png" alt="logo"></a>
+        <h1>Lucas Tec Soluções</h1>
+        <p>Gerenciamento de Projetos</p>
+    </header>
+
+    <section class="main-content">
+        <h2>Nossos Serviços em Gerenciamento de Projetos</h2>
+        <p>
+            Nossa experiência em gerenciamento de projetos garante a entrega eficiente e dentro do prazo. Utilizamos metodologias comprovadas para garantir o sucesso de seus projetos, desde a concepção até a implementação.
+        </p>
+
+        <h3>Lucas Teixeira - Profissional Certificado</h3>
+        <p>
+            Lucas Teixeira é um profissional certificado em gerenciamento de projetos pela Google. Nossas soluções abrangem Scrum, Agile e Kanban. Temos conhecimento de Lean Six Sigma, além de um amplo conhecimento de cultura organizacional para pequenas e médias empresas.
+        </p>
+
+        <h3>Serviços Especializados</h3>
+        <p>
+            Empregamos técnicas de alta qualidade em planejamento, análise e desenvolvimento criativo e profissional dos mais diferentes tipos de projetos, especialmente projetos de TI, organização e atingimento de metas. Abordamos uma abordagem personalizada aumentando assim a eficiência nos serviços prestados. Trabalhamos por contratos, aulas e treinamentos, palestras empresariais.
+        </p>
+
+        <h3>Soft Skills e Metodologia Certa</h3>
+        <p>
+            Temos o prazer de nos orgulhar de nossas soft skills e estamos prontos para impactar o mundo junto a você. Temos a motivação e metodologia certa para alcançar seus objetivos. Especialista em gerenciamento de cloud computing, excelência no monitoramento e suporte. Contrate agora mesmo uma solução em project management na Lucas Tec Soluções e saia na frente da concorrência. Tecnologias com Trello, Microsoft 365, aplicação de soluções com IA, Notion, Evernote, Asana e muito mais.
+        </p>
+
+        <a href="./consultoriafiltro.html" class="button">X-Ray</a>
+    </section>
+
+    <!-- Calendário Mensal -->
+    <div id="calendario">
+        <!-- Adicione os dias do mês aqui -->
+        <div class="dia">1</div>
+        <div class="dia">2</div>
+        <div class="dia">3</div>
+        <div class="dia">4</div>
+        <div class="dia">5</div>
+        <div class="dia">6</div>
+        <div class="dia">7</div>
+        <!-- ... -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Lucas Tec Soluções. Todos os direitos reservados.</p>
+    </footer>
+ <!-- Botão Flutuante - X-Ray -->
+ <a href="./consultoriafiltro.html" class="floating-button">X-Ray</a>
+
+    <!-- Formulário X-Ray (Invisível por padrão) -->
+    <div id="xray-form" style="display: none;">
+        <h2>Formulário X-Ray</h2>
+        <p>Preencha as informações abaixo para agendar sua consulta:</p>
+
+        <!-- Adicione os campos do formulário aqui -->
+
+        <button class="button">Enviar</button>
+    </div>
+</body>
+</html>

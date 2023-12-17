@@ -1,0 +1,701 @@
+  /* coockies do site */
+#cookieConsent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+#closeCookieConsent {
+    cursor: pointer;
+    float: left;
+    padding: 5px;
+}
+  /* Estilo do Botão Flutuante */
+  .floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+/* Estilo do Botão de Compartilhamento */
+.floating-buttons button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    animation: rainbow 3s infinite;
+}
+
+/* Animação de cores */
+@keyframes rainbow {
+    0% { background-color: #3498db; }
+    16.66% { background-color: #e74c3c; }
+    33.33% { background-color: #f39c12; }
+    50% { background-color: #2ecc71; }
+    66.66% { background-color: #9b59b6; }
+    83.33% { background-color: #1abc9c; }
+    100% { background-color: #3498db; }
+}
+/* publicidade */
+.banner {
+    width: 100%;
+    max-width: 1000px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+}
+
+.banner a {
+    display: block;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    border: 0; /* Remova a borda do link se necessário */
+}
+#sucesso {
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+   background-image: url(https://i.pinimg.com/236x/24/ab/46/24ab46eb8891f0b42b0462470d3f6c6a.jpg);
+   background-color: rgba(255, 255, 255, 0.9); /* O último valor (0.7) define a opacidade */
+
+
+}
+.botoesredes {
+    font-family: 'Arial', sans-serif;
+    background-color: #171717;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-button img {
+    width: 50px; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Estilos específicos para cada botão */
+.whatsapp {
+    background-color: #25d366;
+}
+
+.instagram {
+    background: linear-gradient(to right, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.gmail {
+    background-color: #dd4b39;
+}
+
+.contact-button:hover {
+    transform: scale(1.1);
+}
+
+h2, p.meta-info, p.content, p.meta-info.footer {
+    color: #4ecdc4;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+footer {
+    border-top: 1px solid #4ecdc4;
+    padding-top: 10px;
+}
+
+.sobrealt {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    article {
+        width: 45%; /* Largura do artigo */
+    }
+    
+    h1, h3, h6 {
+        color: #4ecdc4; /* Cor do texto neon */
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    h6 {
+        font-size: 16px;
+        opacity: 0.8;
+    }
+    
+    table {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    td {
+        vertical-align: top;
+        padding: 10px;
+    }
+    
+    #imgtec {
+        width: auto; /* Tamanho da imagem */
+        height: 100%;
+        margin-right: 20px; /* Espaçamento à direita da imagem */
+        box-shadow: 0 0 20px rgba(78, 205, 196, 0.8); /* Sombra neon */
+    }
+    
+    /* Efeito hover para a imagem */
+    img:hover {
+        transform: scale(1.1);
+    }
+    
+    /* Adicione a seguinte regra para estilizar a tabela */
+    table, th, td {
+        border: 1px solid #4ecdc4; /* Borda neon */
+        border-collapse: collapse;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    /* Adicione um efeito hover para as células da tabela */
+    tr:hover {
+        background-color: rgba(78, 205, 196, 0.2);
+    }
+
+.textonocentro {
+    display: inline-table;
+    padding-left: 15%;
+}
+.logo {
+    border-radius: 50%; /* Torna a imagem circular */
+}
+/* Estilo para cada bloco de serviço */
+   .servico {
+    max-width: 300px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para o serviço amarelo */
+.amarelo {
+    background-color: yellow;
+}
+
+/* Estilo para o serviço verde */
+.verde {
+    background-color: lightgreen;
+}
+
+/* Estilo para o serviço vermelho */
+.vermelho {
+    background-color: lightcoral;
+}
+
+/* Estilo para o serviço azul */
+.azul {
+    background-color: lightskyblue;
+}
+
+.servico:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.servico img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.servico h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.servico p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+/* Estilos para a seção Sobre a TEC- */
+section {
+    background-color: #1a1a1a; /* Cor de fundo escura para um ambiente futurista */
+    color: #ffffff; /* Texto branco para contrastar */
+    padding: 50px;
+    text-align: center;
+}
+
+section div {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #3db8c1; /* Cor para destacar o título */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Efeito de transição para hover nos parágrafos */
+p:hover {
+    color: #5bb2f9; /* Cor de destaque para o texto ao passar o mouse */
+    transition: color 0.5s ease;
+}
+
+/* Estilo da Seção de Contato */
+#contato {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilo para a Seção de Formulário de Contato */
+#formulario-contato {
+    background-size: cover;
+    background-position: center;
+    color: #030303;
+    text-align: center;
+    padding: 80px;
+    background: rgba(0, 0, 0, 0.1); /* Cor de fundo preto com 70% de opacidade */
+    background-image: url('https://contentstatic.techgig.com/thumb/msid-86830378,width-800,height-600,resizemode-4/86830378.jpg');
+    position: relative; /* Adiciona posição relativa para posicionamento absoluto dos elementos internos */
+}
+
+
+/* Estilo para o título "Entre em Contato" */
+#formulario-contato h2 {
+    margin-bottom: 20px;
+   
+}
+
+/* Estilo para o contêiner do GIF */
+#gif {
+    margin-bottom: 20px;
+}
+
+/* Estilo para a tag img dentro do contêiner do GIF */
+#gif img {
+    max-width: 100%; /* Garante que a largura da imagem não ultrapasse a largura do contêiner */
+}
+
+/* Estilo para o formulário */
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+
+/* Restante do código permanece o mesmo */
+
+
+/* Estilo para o Título da Seção */
+.contato-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o Texto da Seção */
+.contato-section p {
+    font-size: 1.2em;
+}
+
+
+/* Estilo para o Menu Flutuante Futurista */
+.menu-flutuante {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('https://2.bp.blogspot.com/-BDnEBhrKLXU/V1swjc617RI/AAAAAAAAAWA/UpciTSjPLUYIELEZBCZ2Qhwa5CBKI89LwCLcB/s1600/maxresdefault.jpg');
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.menu-flutuante ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-flutuante li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-flutuante a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu-flutuante a:hover {
+    color: #00bcd4; /* Cor de destaque ao passar o mouse */
+}
+
+
+/* Reset de estilos padrão para garantir consistência */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #262626, #191919); /* Fundo escuro futurista */
+    color: #fff;
+}
+
+/* Estilo do cabeçalho (destaque) */
+#destaque {
+    text-align: center;
+    padding: 100px 0;
+    background: url('nuvens.png') repeat-y; /* Substitua 'nuvens.png' pela sua imagem de nuvens */
+    background-size: cover;
+}
+
+#destaque h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#destaque p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+/* Estilo do menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1E90FF;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilo da seção de serviços */
+#servicos {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#servicos h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+#servicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#servicos li {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* Estilo da seção de contato */
+#contato {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#contato h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+#contato p {
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Estilo para a animação de scroll do foguete */
+#animacao-foguete {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.foguete {
+    width: 50px;
+    height: 100px;
+    background-color: #f39c12; /* Cor do foguete */
+    position: absolute;
+    bottom: -100px; /* Inicialmente posicionado abaixo da tela */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s ease-in-out;
+}
+/* Estilo para o botão de ação CTA para o WhatsApp */
+#cta-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cloud {
+    position: relative;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cloud img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.cloud span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+/* Estilo para o Cabeçalho */
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #2c3e50, #3498db); /* Gradiente azul escuro para azul claro */
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+
+/* Estilo para a Seção de Comentários */
+.comentarios-section {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(to bottom, #3498db, #2c3e50); /* Gradiente azul claro para azul escuro */
+    border-radius: 10px;
+    color: #fff;
+}
+
+.comentarios h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.comentar {
+    margin-top: 20px;
+}
+
+#form-comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-comentario label {
+    margin-bottom: 5px;
+    color: #ddd; /* Cor cinza para as labels */
+}
+
+#form-comentario input,
+#form-comentario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#form-comentario button {
+    background-color: #2ecc71; /* Cor verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+#form-comentario button:hover {
+    background-color: #27ae60; /* Tom mais escuro do verde ao passar o mouse */
+}
+.secao {
+    background-image: url('https://i.pinimg.com/236x/1c/03/b6/1c03b6e74d475839ed9fe9240f693556.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 80px 0;
+}
+
+#servicos {
+    padding: 80px 0;
+}
+
+.servico {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.servico img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.servico h3 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #00bcd4; /* Cor do título */
+}
+
+.servico p {
+    font-size: 1.2em;
+    color: #ccc; /* Cor do texto normal */
+}
+
+/* Adicione este estilo para o botão de rolagem */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+/* Seção de Contato */
+#contato {
+    min-height: 100vh; /* Garante que a seção de contato ocupe pelo menos a altura da tela */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 0; /* Adiciona margem inferior zero para garantir que não haja espaço extra */
+}
+/* Estilo para a Seção de Serviços da lucastec*/
+.servicos-section {
+    display: flex;
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f9f9f9; /* Cor de fundo para a seção de serviços */
+}
+
+/* Estilo para cada bloco de serviço */
+.servico {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.servico img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.servico h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 1.2em;
+    color: #666;
+}
+

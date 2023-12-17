@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./arquivo.css/style.css">
+    <title>Consultoria Master - Lucas Tec</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    section {
+        margin: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-top: 10px;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    button {
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    #resultContent {
+        margin-top: 15px;
+    }
+    
+</style>
+<body>
+   
+    <header>    <a href="index.html"><img src="./logoo.png" alt="logo"></a>
+
+        <h1 style="color: cornsilk;">Consultoria Master - Lucas Tec</h1>
+    </header>
+    <div class="banner">
+        <a href="https://apyoth.com/click/657d82132bfa813c8f0155a2/179683/299826/subaccount" target="_blank">
+            <img src="c:\Users\teixe\Downloads\14302_all_banners\16583477963651.gif" alt="Anúncio">
+        </a>
+    </div>
+      <hr>  
+    <section id="filterSection">
+        <h1>Elevando Seu Negócio para Novas Alturas</h1>
+        <br>
+        
+        Na vanguarda da revolução tecnológica, a Consultoria Master da Lucas Tec emerge como uma força inigualável, combinando conhecimento técnico sólido, especialização profunda em serviços de nuvem AWS e gerenciamento de projetos, e uma visão arrojada para o desenvolvimento web.
+        
+        Expertise em Nuvem AWS e Gerenciamento de Projetos:
+        Alicerçados em uma base sólida de expertise em nuvem AWS, nossa equipe é capacitada para orquestrar soluções de infraestrutura escaláveis, aproveitando ao máximo os recursos elásticos da AWS. Além disso, somos mestres na arte do gerenciamento de projetos, aplicando metodologias ágeis e as melhores práticas do Project Management Institute (PMI) para garantir entregas pontuais e resultados excepcionais.
+        <hr>
+        <p style="background-color: blue;">Queremos Conhecer Melhor Seu Negócio para Personalizarmos uma Solução com Foco em Resultados!</p>
+        <hr>
+        <form id="consultForm">
+            <label for="companyName">Nome da Empresa:</label>
+            <input type="text" id="companyName" name="companyName" required>
+
+            <label for="businessObjectives">Objetivos de Negócio:</label>
+            <textarea id="businessObjectives" name="businessObjectives" required></textarea>
+
+            <label for="currentChallenges">Desafios Atuais:</label>
+            <textarea id="currentChallenges" name="currentChallenges" required></textarea>
+
+            <button type="button" onclick="submitConsultForm()">Enviar Consulta</button>
+        </form>
+    </section>
+
+    <section id="resultSection" style="display: none;">
+        <h2>Resultado da Consulta</h2>
+        <div id="resultContent"></div>
+    </section>
+
+    <center>
+        <p>Sucesso é Constãncia!</p>
+    </center>
+        <hr>
+        <section class="botoesredes">
+        <div class="contact-buttons">
+            
+            <a href="https://wa.me/+5585999070711" target="_blank" class="contact-button whatsapp">
+                <img src="https://i.pinimg.com/236x/33/b6/53/33b6530c47f744f110e5070ba9b893d2.jpg" alt="WhatsApp">
+            </a>
+        
+            <a href="https://www.instagram.com/lucastecsolucoesdigitais/" target="_blank" class="contact-button instagram">
+                <img src="https://i.pinimg.com/236x/f4/1e/2d/f41e2dab621c1ee5253cef74e3642fcf.jpg" alt="Instagram">
+            </a>
+        
+            <a href="mailto:lucastecsolucoesdigitais@gmail.com" class="contact-button gmail">
+                <img src="https://i.pinimg.com/236x/88/e1/4c/88e14cc7e7fcbb0e0e09de26cec86c61.jpg" alt="Gmail">
+            </a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+     <!-- Rodapé -->
+     <footer>
+        <p>&copy; 2023 Lucas Tec Soluções. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

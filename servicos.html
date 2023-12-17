@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços Lucas Tec</title>
+    <link rel="stylesheet" href="arquivo.css/style.css"> <!-- Link para o arquivo de estilos (styles.css) -->
+</head>
+<body>
+
+    <!-- Seção de Destaque -->
+    <section id="destaque">
+        <h1>Bem-vindo à Lucas Tec Soluções</h1>
+        <p>Sua solução completa em tecnologia, computação em nuvem e desenvolvimento web.</p>
+    </section>
+
+     <!-- Seção de Menu Flutuante Futurista -->
+     <div class="menu-flutuante">
+        <ul>
+            <li class="logo"><img src="./logoo.png" href="./index.html" alt="logo"></li>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./servicos.html">Serviços</a></li>
+            <li><a href="./contatos.html">Contato</a></li>
+            <!-- Adicione mais itens do menu conforme necessário -->
+        </ul>
+    </div>
+
+    <hr>
+
+     <!-- Seção de Serviços -->
+     <section class="servicos-section">
+        <!-- Primeiro Serviço -->
+        <div class="servico amarelo">
+            <img src="https://i.pinimg.com/236x/88/9c/1f/889c1fb3ee5117f3661ec06aec22f7c3.jpg"
+                alt="AWS Cloud Computing">
+                <a href="./cloudservice.html"><h3  style="color: black;">Cloud Computing - AWS</h3></a>
+            <div class="content">
+                <p>
+                    A Lucas Tec oferece serviços de computação em nuvem na plataforma AWS, proporcionando
+                    escalabilidade, segurança e eficiência para seus projetos. Conte com a infraestrutura líder de
+                    mercado para impulsionar seus negócios.
+                </p>
+            </div>
+        </div>
+
+        <!-- Segundo Serviço -->
+        <div class="servico verde">
+            <img src="Code typing Customizable Cartoon Illustrations _ Bro Style.jpeg"
+                alt="Desenvolvimento Web Profissional">
+            <a href="./devservice.html"><h3  style="color: black;">Desenvolvimento Web Profissional</h3></a>
+            <div class="content">
+                <p>
+                    Nossa equipe especializada em desenvolvimento web oferece soluções profissionais e inovadoras.
+                    Desde a criação de websites até aplicações web complexas, estamos comprometidos em transformar
+                    suas ideias em realidade digital.
+                </p>
+            </div>
+        </div>
+
+        <!-- Terceiro Serviço -->
+        <div class="servico vermelho">
+            <img src="b5db1c27c038eb554b67aec987d0f763.jpg" alt="Consultoria Master">
+            <a href="./consultoria.html"><h3  style="color: black;">Consultoria Master</h3></a>
+            <div class="content">
+                <p>
+                    Através de nossa consultoria master, a Lucas Tec orienta sua empresa em tomadas de decisão
+                    estratégicas. Analisamos, planejamos e implementamos soluções tecnológicas alinhadas aos seus
+                    objetivos de negócio.
+                </p>
+            </div>
+        </div>
+
+        <!-- Quarto Serviço -->
+        <div class="servico azul">
+            <img src="Project management Illustration.jpeg" alt="Gerenciamento de Projetos">
+            <a href="./projetosservice.html"><h3 style="color: black;">Gerenciamento de Projetos</h3></a>
+            <div class="content">
+                <p>
+                    Nossa experiência em gerenciamento de projetos garante a entrega eficiente e dentro do prazo.
+                    Utilizamos metodologias comprovadas para garantir o sucesso de seus projetos, desde a concepção
+                    até a implementação.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="botoesredes">
+    <div class="contact-buttons">
+        
+        <a href="https://wa.me/+5585999070711" target="_blank" class="contact-button whatsapp">
+            <img src="https://i.pinimg.com/236x/33/b6/53/33b6530c47f744f110e5070ba9b893d2.jpg" alt="WhatsApp">
+        </a>
+    
+        <a href="https://www.instagram.com/lucastecsolucoesdigitais/" target="_blank" class="contact-button instagram">
+            <img src="https://i.pinimg.com/236x/f4/1e/2d/f41e2dab621c1ee5253cef74e3642fcf.jpg" alt="Instagram">
+        </a>
+    
+        <a href="mailto:lucastecsolucoesdigitais@gmail.com" class="contact-button gmail">
+            <img src="https://i.pinimg.com/236x/88/e1/4c/88e14cc7e7fcbb0e0e09de26cec86c61.jpg" alt="Gmail">
+        </a>
+    </div>
+</section>
+<hr>
+<!-- Botão Flutuante de Compartilhamento -->
+<div class="floating-buttons">
+    <button onclick="shareContent()">🚀</button>
+</div>
+
+<script>
+    // Função para Compartilhamento
+    function shareContent() {
+        // Substitua o URL_DO_SEU_SITE pelo URL real do seu site
+        const urlDoSeuSite = 'https://lucastec-solucoes.online';
+        
+        // Abre a janela de compartilhamento
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=$http://lucastec-solucoes.online/}`, '_blank');
+    }
+</script>
+<section>
+    <div>
+       
+        <h2>CNPJ: 50.505.520/0001-24</h2>
+        <br>
+        <p>Conte conosco para impulsionar o seu negócio para novos patamares de eficiência e sucesso. Estamos comprometidos em fornecer soluções que fazem a diferença.</p>
+    </div>
+</section>
+    <!-- Seção de Formulário de Contato -->
+    <section id="formulario-contato">
+        <h2>Entre em Contato</h2>
+        <div id="gif">
+            <img src="https://kirux.files.wordpress.com/2009/06/programmers.gif" alt="Programmers GIF">
+        </div>
+        <form id="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="button" onclick="enviarMensagem()">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2023 Lucas Tec Soluções. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
